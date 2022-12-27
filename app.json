@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "food",
-    "slug": "food",
+    "slug": "food-searching",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -24,10 +24,17 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.mominadil864.foodsearching"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "731e20fe-742c-4ac5-8f54-316729c1c868"
+      }
+    },
+    "owner": "mominadil864"
   }
 }
